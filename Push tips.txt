@@ -1,0 +1,6 @@
+Step to push a repo on GIT
+1. Crate a remote repository on the GitHub.
+2. Create a local repository with the same name if possible. You can crate with different name as well.
+3. Open command prompt in the local repository and hit "git init". This will initialize the local repo to be pushed to remote.
+4. Hit "git remote add origin git@github.com:vvanand007/new-project.git". Here new-project is your remote repo name.
+5. Now "git add ." -> git commit -m "commit message" -> "git push --set-upstream origin master"
